@@ -11,15 +11,17 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** MySQL hostname */
-define('DB_HOST', '');
+define('DB_HOST', 'wpdb-26.hosting.stackcp.net');
 
 /** The name of the database for WordPress */
-define('DB_NAME', '');
+define('DB_NAME', 'SCWORDPRESS-35303038e520');
 
 /** MySQL database username */
-define('DB_USER', '');
+define('DB_USER', 'SCWORDPRESS-35303038e520');
 
 /** MySQL database password - set in wp-config.local.php */
+/** MySQL database password */
+define('DB_PASSWORD', 'd23b3864a33b4e8e');
 
 /**
  * For developers: WordPress debugging mode.
