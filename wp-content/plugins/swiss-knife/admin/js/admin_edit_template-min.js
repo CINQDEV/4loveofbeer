@@ -1,0 +1,1 @@
+jQuery(document).ready((function(t){var e=t("a.page-title-action").last();if(1===e.length){var a=e.clone();a.text("← Back to Templates").attr("href",ct_template_edit_link.value),a.attr("id","back-button"),a.css({display:"block",width:"fit-content",padding:"10px 0",border:"0",background:"transparent"}),a.insertBefore(t(".wp-heading-inline"))}}));

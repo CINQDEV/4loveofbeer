@@ -1,0 +1,1 @@
+el="",function(t){function o(t){window.postMessage({action:"swk-shortcuts-"+t},"*")}t(window).blur((function(){delete copiedContent})),t(".swk-topbar-icons.button-copy").click((function(){o("copy")})),t(".swk-topbar-icons.button-cut").click((function(){o("cut")})),t(document).on("click",".swk-topbar-icons.button-paste",(function(t){o("past")}))}(window.jQuery);

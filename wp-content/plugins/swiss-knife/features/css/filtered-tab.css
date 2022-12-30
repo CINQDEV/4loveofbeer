@@ -1,0 +1,3 @@
+.oxygen-sidebar-control-panel.oxygen-sidebar-advanced-home.oxygen-sidebar-advanced-home-filtered > .oxygen-sidebar-advanced-subtab:not(.oxy-styles-present) {
+    display: none;
+}

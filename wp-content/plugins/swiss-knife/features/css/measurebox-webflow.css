@@ -1,0 +1,3 @@
+.oxygen-sidebar-control-panel .position .oxygen-control-row:nth-child(2) {
+  flex-direction: column !important;
+}

@@ -1,0 +1,1 @@
+!function(o){o(document).ready((function(){o("body").on("keyup keydown change","#oxygen-global-settings .oxygen-measure-box input",(function(){setTimeout((function(){$scope.initTooltips()}),100)})),o("body").on("click",(function(){setTimeout((function(){$scope.initTooltips()}),100)}))}))}(jQuery);

@@ -1,0 +1,113 @@
+#oxygen-ui .oxygen-media-query-box {
+  color: var(--oxy__text);
+  background: var(--oxy__bg-3);
+  border: 2px solid var(--oxy__input-border);
+}
+#oxygen-ui .oxygen-media-query-box:hover {
+  border-color: var(--oxy__action);
+}
+#oxygen-ui .oxygen-media-query-dropdown {
+  background: var(--oxy__bg-2);
+}
+
+/*=============================================
+=            Expanded breakpoints            =
+=============================================*/
+#oxygen-ui .oxygen-active-select .oxygen-media-query-dropdown {
+  display: -webkit-flex;
+  display: flex;
+}
+#oxygen-ui .oxygen-media-query-and-selector-wrapper {
+  -webkit-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+#oxygen-ui .oxygen-media-query-box {
+  display: none;
+}
+#oxygen-ui .oxygen-media-query-dropdown {
+  width: 270px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -webkit-column-gap: 5px;
+     -moz-column-gap: 5px;
+          column-gap: 5px;
+  position: relative;
+  top: 0;
+  margin-top: 10px;
+  z-index: 0;
+  box-shadow: unset;
+  overflow: visible;
+  background-color: var(--oxy__bg-5);
+}
+#oxygen-ui .oxygen-media-query-dropdown li {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  border: 2px solid var(--oxy__input-border);
+  border-radius: 4px;
+}
+#oxygen-ui .oxygen-media-query-dropdown li span {
+  text-indent: -9999px;
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+}
+#oxygen-ui .oxygen-media-query-dropdown li img {
+  padding: 0;
+}
+#oxygen-ui .oxygen-media-query-dropdown li img:nth-child(3) {
+  position: absolute;
+  z-index: 1;
+  top: -8px;
+  right: -8px;
+  -webkit-transform: scale(0.8) !important;
+          transform: scale(0.8) !important;
+}
+#oxygen-ui .oxygen-media-query-dropdown li:hover {
+  background-color: var(--oxy__action);
+  border: 2px solid var(--oxy__action);
+}
+#oxygen-ui .oxygen-media-query-dropdown li:hover .swk-breakpoint {
+  background-color: var(--oxy__action);
+  color: var(--oxy__action_text);
+  text-indent: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  -webkit-align-items: center;
+          align-items: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+}
+#oxygen-ui .oxygen-media-query-dropdown li > img:first-child {
+  margin: auto;
+}
+#oxygen-ui .oxygen-media-query-dropdown span.oxygen-current-media-query {
+  background: var(--oxy__bg-3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/*=============================================
+=            Class Lock fix	   	              =
+=============================================*/
+.swk-locked-div {
+  top: 130px;
+}
+
+/*# sourceMappingURL=expanded_breakpoints.css.map */

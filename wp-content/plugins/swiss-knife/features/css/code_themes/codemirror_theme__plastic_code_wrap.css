@@ -1,0 +1,74 @@
+html .CodeMirror-lines,
+html .CodeMirror-scroll,
+html .CodeMirror-gutter {
+  background: #00161B;
+  color: #F8F8F8;
+}
+html .CodeMirror-selected {
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+
+html .cm-s-default {
+  font-size: 1em;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  color: #F8F8F8;
+}
+html .cm-s-default .CodeMirror-lines {
+  padding: 8px 0;
+  padding-left: 5px;
+}
+html .cm-s-default .CodeMirror-gutters {
+  box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.1);
+  background: #00161B;
+  padding-right: 10px;
+  z-index: 3;
+  border: none;
+}
+html .cm-s-default div.CodeMirror-cursor {
+  border-left: 3px solid #F8F8F8;
+}
+html .cm-s-default .CodeMirror-activeline-background {
+  background: #FFFFFF0D;
+}
+html .cm-s-default .CodeMirror-selected {
+  background: #C5DFE980;
+}
+html .cm-s-default .cm-comment {
+  font-style: italic;
+  color: #1E9AE0;
+}
+html .cm-s-default .cm-keyword {
+  color: #FFAA00;
+}
+html .cm-s-default .cm-string {
+  color: #65BA3A;
+}
+html .cm-s-default .cm-property {
+  color: #FFB454;
+}
+html .cm-s-default .cm-atom {
+  color: #FFB454;
+}
+html .cm-s-default .cm-number {
+  color: #FFB454;
+}
+html .cm-s-default .cm-operator {
+  color: #FFAA00;
+}
+html .cm-s-default .CodeMirror-linenumber {
+  color: italic;
+}
+html .cm-s-default .cm-variable-2 {
+  color: white;
+}
+html .cm-s-default .cm-variable {
+  color: white;
+}
+html .cm-s-default .cm-def {
+  color: white;
+}
+html .cm-s-default .cm-tag {
+  color: #1E9AE0;
+}

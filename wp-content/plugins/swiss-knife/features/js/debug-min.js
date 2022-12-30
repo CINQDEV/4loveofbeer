@@ -1,0 +1,1 @@
+jQuery(document).ready((function(t){t("#debug_btn").insertAfter(".oxygen-toolbar-panels"),t("#debug_btn").removeAttr("style"),t(document).on("click","#debug_btn",(function(){t("#ct-artificial-viewport").contents().find("html").toggleClass("debug")}))}));

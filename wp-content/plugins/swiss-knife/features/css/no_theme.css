@@ -1,0 +1,22 @@
+:root {
+  --oxy__size-xxs: 2px;
+  --oxy__size-xs: 4px;
+  --oxy__size-s: 8px;
+  --oxy__size-m: 16px;
+  --oxy__size-l: 32px;
+  --oxy__size-xl: 64px;
+  --oxy__bg-1: black;
+  --oxy__bg-2: #404040;
+  --oxy__bg-3: #2b2b2b;
+  --oxy__bg-4: #555555;
+  --oxy__bg-5: #5d5d5d;
+  --oxy__text: white;
+  --oxy__border: #5c5c5c;
+  --oxy__input-text: white;
+  --oxy__input-bg: #3b3b3b;
+  --oxy__input-border: #626262;
+  --oxy__placeholder: #dcdcdc;
+  --oxy__action: #43a3fc;
+  --oxy__action_hover: #4a6df1;
+  --oxy__action_text: white;
+}

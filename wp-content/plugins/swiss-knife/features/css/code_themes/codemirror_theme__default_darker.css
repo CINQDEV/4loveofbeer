@@ -1,0 +1,5 @@
+html .CodeMirror-lines,
+html .CodeMirror-scroll,
+html .CodeMirror-gutter {
+  background: #2d353c;
+}

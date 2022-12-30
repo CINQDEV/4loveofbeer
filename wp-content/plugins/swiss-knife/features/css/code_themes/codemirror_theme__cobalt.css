@@ -1,0 +1,58 @@
+html .CodeMirror-lines,
+html .CodeMirror-scroll,
+html .CodeMirror-gutter {
+  background: #002240;
+  color: #FFFFFF;
+}
+html .CodeMirror-selected {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+html .cm-s-default {
+  font-size: 1em;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+}
+html .cm-s-default .CodeMirror-lines {
+  padding: 8px 0;
+  padding-left: 5px;
+}
+html .cm-s-default .CodeMirror-gutters {
+  box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.1);
+  background-color: #002240;
+  padding-right: 10px;
+  z-index: 3;
+  border: none;
+}
+html .cm-s-default div.CodeMirror-cursor {
+  border-left: 3px solid #FFFFFF;
+}
+html .cm-s-default .CodeMirror-activeline-background {
+  background: #00000059;
+}
+html .cm-s-default .CodeMirror-selected {
+  background: #B36539BF;
+}
+html .cm-s-default .cm-keyword {
+  color: #FF9D00;
+}
+html .cm-s-default .cm-comment {
+  color: #0088FF;
+  font-style: italic;
+}
+html .cm-s-default .cm-property {
+  color: #FFB054;
+}
+html .cm-s-default .cm-atom {
+  color: #FFB054;
+}
+html .cm-s-default .cm-number {
+  color: #FFB054;
+}
+html .cm-s-default .cm-operator {
+  color: #FF9D00;
+}
+html .cm-s-default .CodeMirror-linenumber {
+  color: italic;
+}

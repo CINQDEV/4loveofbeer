@@ -1,0 +1,74 @@
+html .CodeMirror-lines,
+html .CodeMirror-scroll,
+html .CodeMirror-gutter {
+  color: darkgrey;
+  background: white;
+}
+html .CodeMirror-selected {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+
+html .cm-s-default {
+  font-size: 1em;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  color: red;
+}
+html .cm-s-default .CodeMirror-lines {
+  padding: 8px 0;
+  padding-left: 5px;
+}
+html .cm-s-default .CodeMirror-gutters {
+  box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+  padding-right: 10px;
+  z-index: 3;
+  border: none;
+}
+html .cm-s-default div.CodeMirror-cursor {
+  border-left: 3px solid red;
+}
+html .cm-s-default div.CodeMirror-cursor {
+  border-left: 3px solid #000000;
+}
+html .cm-s-default .CodeMirror-activeline-background {
+  background: #0000001A;
+}
+html .cm-s-default .CodeMirror-selected {
+  background: #BAD6FD;
+}
+html .cm-s-default .cm-string {
+  color: #C41A16;
+}
+html .cm-s-default .cm-keyword {
+  color: #AA0D91;
+}
+html .cm-s-default .cm-variable {
+  color: #000000;
+}
+html .cm-s-default .cm-def {
+  font-style: italic;
+}
+html .cm-s-default .cm-comment {
+  color: #007400;
+}
+html .cm-s-default .cm-variable-2 {
+  color: #881280;
+}
+html .cm-s-default .cm-operator {
+  color: #AA0D91;
+}
+html .cm-s-default .CodeMirror-linenumber {
+  color: #007400;
+}
+html .cm-s-default .cm-tag {
+  color: #000000;
+}
+html .cm-s-default .cm-bracket {
+  color: #997;
+}
+html .cm-s-default .CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: grey !important;
+}
